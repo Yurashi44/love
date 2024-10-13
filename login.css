@@ -1,0 +1,135 @@
+body {
+
+    background-color:   #1E201E;
+
+    padding: 170px;
+}
+.all {
+
+    width: 100px;
+    position: absolute;
+    top: -20px;
+    left: 530px;
+    
+    
+}
+.form {
+    
+    margin-top: 200px;
+    text-align: center;
+    height: 150px;
+    width: fit-content;
+    background-color: rgb(248, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+
+    
+}
+
+.user {
+
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin-top: 10px;
+    
+    
+
+}
+
+.pass {
+
+    padding: 10px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    
+
+}
+
+.login {
+
+    margin-top: 10px;
+    width: 275px;
+    padding: 7px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(30, 121, 224);
+    cursor: pointer;
+}
+
+.forgot {
+    
+    color:  rgb(30, 121, 224);
+}
+
+.wew {
+
+    margin-top: 10px;
+}
+
+.create {
+
+   margin-top: 80px;
+}
+
+.new {
+
+    background-color: rgb(13, 192, 52);
+    padding: 7px;
+    border-style: none;
+    border-radius: 7px;
+    width: 275;
+
+}
+
+.facebook{
+     
+    font-size: 50px;
+    color: blue;
+}
+.con {
+
+    font-size: 20px;
+}
+
+.around {
+
+    font-size: 20px;
+}
+
+.for {
+
+   margin-left: 150px;
+}
+
+
+
+img {
+    
+    border-radius: 8px;
+    height: 300px;
+    
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 50px;
+
+   
+  }
+
+.q {
+ 
+   
+    border-radius: 30px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
+

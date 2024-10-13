@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+</body>
+
+<div class="all">
+<div class="form">
+<form id="loginForm">
+
+    <div class="error" id="errorMessage"></div>
+    <div>
+    <input type="text" class="user" id="username" placeholder="Username" required>
+    </div>
+     <div>
+    <input type="password" class="pass" id="password" placeholder="Password" required>
+    </div>
+    <input type="submit" class="login" value="Login">
+
+    <a href="landing.html">Back</a>
+</form>
+</div>
+</div>
+
+<script>
+    const correctUsername = "lolove";
+    const correctPassword = "05162024";
+
+    
+
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+
+        if (username === correctUsername && password === correctPassword) {
+            window.location.href = "2nd.html"; // Redirect to admin dashboard
+        } else {
+            document.getElementById("errorMessage").textContent = "Invalid username or password.";
+        }
+    });
+</script>
+</body>
+</html>
